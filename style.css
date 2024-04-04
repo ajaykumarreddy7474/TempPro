@@ -1,0 +1,105 @@
+body {
+  font-family: poppins;    
+  background-image: url('/d1.jpg');
+  background-position: center ;
+  background-size: cover;
+  height: 97vh;
+  background-repeat: no-repeat;
+  }
+
+  .container {
+    position: absolute;
+    max-width: 400px;
+    padding: 40px 100px;
+    background: linear-gradient(45deg, rgb(255, 144, 144), white);
+    top:50%;
+    left:50%;
+    transform: translate(-50%, -50%);
+    border-radius:50px;
+    border: 2px solid black;
+    border-right: 7px solid black;
+    border-bottom: 7px solid black;
+    text-transform: uppercase;
+    animation: ani1 3s  infinite;
+ 
+    
+
+  }
+  @keyframes ani1 {
+    from{
+      
+      background: linear-gradient(45deg, rgb(247, 181, 181), white,pink);
+    }
+    to{
+      background: linear-gradient(-45deg, rgb(240, 160, 160), white,pink);
+    }
+    
+  }
+h2{
+  font-size: 25px;
+}
+  label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: bold;
+    text-align: center;
+  }
+
+  input[type="number"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #060000;
+    border-radius: 4px;
+    box-sizing: border-box;
+    border-radius:40px;
+    border-right: 4px solid black;
+    border-bottom: 4px solid black;
+    text-align: center;
+    font-size: 20px;
+  }
+
+  select {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    box-sizing: border-box;
+    border-radius:40px;
+    border: 1px solid black;
+    border-right: 4px solid black;
+    border-bottom: 4px solid black;
+    text-align: center;
+    font-size: 20px;
+  }
+
+  button {
+    width: 50%;
+    padding: 10px;
+    background-color: rgb(254, 163, 250);
+    font-family: poppins;
+    border: none;
+    cursor: pointer;
+    border-radius:40px;
+    border-right: 4px solid black;
+    border: 1px solid black;
+    border-bottom: 4px solid black;
+    margin-left:25%;
+  }
+
+  button:hover {
+    background-color: rgb(253, 199, 251);
+  }
+
+  #result {
+    margin-top: 20px;
+    font-size: 35px;
+    font-weight: bold;
+    transition: all 1s ease;
+    background-color: white;
+    text-align: center;
+    padding:20px;
+    border: 1px solid black;
+    border-right: 4px solid black;
+    border-bottom: 4px solid black;
+   
+  }
